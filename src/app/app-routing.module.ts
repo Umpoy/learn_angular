@@ -5,9 +5,9 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'contact', component: ContactComponent }
+  { path: '/learn_angular/dist/playground/', component: HomeComponent },
+  { path: '/learn_angular/dist/playground/about', component: AboutComponent },
+  { path: '/learn_angular/dist/playground/contact', component: ContactComponent }
 ];
 
 @NgModule({
